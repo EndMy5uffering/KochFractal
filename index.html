@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/src/main.ts" defer></script>
+  <title>Koch Fractal Snowflake</title>
+</head>
+<body>
+  <div id='app'>
+    <div class='settings'>
+      <div>
+        <label for="widthIn">Width:</label>
+        <input name="widthIn" id="canvasWidth" class="CustomInput"/>
+      </div>
+      <div>
+        <label for="heightIn">Height:</label>
+        <input name="heightIn" id="canvasHeight" class="CustomInput"/>
+      </div>
+      <button class="BtnCustom BtnWarning" id="ResetCanvasBtn">ResetCanvas</button>
+      <button class="BtnCustom BtnWarning" id="CaptureImg">CaptureImg</button>
+    </div>
+    <div id='canvasArea'></div>
+    <div class='settings'>
+      <button class="BtnCustom BtnSuccess" id="subdivbtn">Subdivide</button>
+      <button class="BtnCustom BtnWarning" id="resetSegments">Reset</button>
+    </div>
+  </div>
+</body>
+</html>

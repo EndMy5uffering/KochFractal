@@ -1,0 +1,58 @@
+.BtnCustom{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.BtnCustom:active{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+}
+
+.BtnSuccess{
+    border: 1px solid rgb(0, 173, 3);
+    color: rgb(0, 173, 3);
+}
+
+.BtnSuccess:hover{
+    border: 1px solid rgb(0, 234, 4);
+    color: rgb(0, 234, 4);
+}
+
+.BtnSuccess:active{
+    background-color: rgba(0, 173, 3, 0.315);
+}
+
+.BtnWarning{
+    border: 1px solid rgb(196, 203, 0);
+    color: rgb(196, 203, 0);
+}
+
+.BtnWarning:active{
+    background-color: rgba(196, 203, 0, 0.454);
+}
+
+.BtnWarning:hover{
+    border: 1px solid rgb(246, 255, 0);
+    color: rgb(246, 255, 0);
+}
+
+.BtnError{
+    border: 1px solid rgb(156, 0, 0);
+    color: rgb(156, 0, 0);
+}
+
+.BtnError:active{
+    background-color: rgba(156, 0, 0, 0.46);
+}
+
+.BtnError:hover{
+    border: 1px solid rgb(216, 0, 0);
+    color: rgb(216, 0, 0);
+}
